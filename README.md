@@ -29,30 +29,30 @@
   * an open-source development platform for developing server-side applications
 * `V8 Engine`
   * a high performance engine which receives/compiles/executes code, handles the callstack, and manages memory
-    * [HackerNoon](https://hackernoon.com/javascript-v8-engine-explained-3f940148d4ef)
+    * [hackernoon](https://hackernoon.com/javascript-v8-engine-explained-3f940148d4ef)
 * `module`
   * a single file, or group of files captured in one import, which contain classes or functions to be used by the developer as core features for a specific purpose
-    * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+    * [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 * `package`
   * a collection of modules
 * `node package manager (npm)`
   * a software registry used by developers and organizations to publish, install, and develop note programs
-    * [NPM Docs](https://docs.npmjs.com/cli/npm.html)
+    * [npm docs](https://docs.npmjs.com/cli/npm.html)
 * `server`
   * software that satisfies client requests to the web, processes network requests over HTTP, and stores/processes/delivers web pages
-    * [Wiki](https://en.wikipedia.org/wiki/Web_server)
+    * [wiki](https://en.wikipedia.org/wiki/Web_server)
 * `environment`
   * anything installed on the machine where the app is being executed: inclyuding operating system, databases, environment variables, the compilers and interpreters being used, the local network, memory space available, etc.
-    * [Quora](https://www.quora.com/What-is-the-programming-environment)
+    * [quora](https://www.quora.com/What-is-the-programming-environment)
 * `interpreter`
   * executes instructions written in  without converting them to an object code or machine code 
   * interpreted languages include JavaScript, Perl and Python
-    * [GeeksforGeeks](https://www.geeksforgeeks.org/compiler-vs-interpreter-2/)
+    * [geeksforgeeks](https://www.geeksforgeeks.org/compiler-vs-interpreter-2/)
 * `compiler`
   * converts an entire program into object code, which can then be directly executed as binary code
   * compiled languages include C and C++
   * Java programs are compiled to an intermediate form, then interpreted
-    * [GeeksforGeeks](https://www.geeksforgeeks.org/compiler-vs-interpreter-2/)
+    * [geeksforgeeks](https://www.geeksforgeeks.org/compiler-vs-interpreter-2/)
 
 ***
 
@@ -162,16 +162,14 @@
     * Mongoose is an object modeling tool designed for use with MongoDB.
       * [freecodecamp](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 5. Define three related pieces of data in a possible application. An example for a store application might be Product, Category and Department. Describe the constraints and rules on each piece of data and how you would relate these pieces to each other. For example, each Product has a Category and belongs in a Department.
-    * A
-    * B
-    * C
-      * [src](url)
+    * Table - a collection of related records within a database
+    * Record - a single line with a unique ID within a database table `(Object{id})`
+    * Field - a single piece of data within a record `({property: value})` 
 
 ##### Vocabulary
 
 * `database`
-  * def
-    * [src](url)
+  * an organized collection of information, accessed electronically via query languages
 * `data model`
   * a diagram of organized elements of data which illustrates how those elements of data relate to one another
     * [hackernoon](https://hackernoon.com/making-a-case-for-domain-modeling-17cf47030732)
@@ -179,32 +177,35 @@
   * Functions of Persistent Storage: Create, Read, Update, Delete
     * [stackify](https://stackify.com/what-are-crud-operations/)
 * `schema`
-  * def
-    * [src](url)
+  * a skeleton structure representative of the logical view of an entire database
+    * [tutorials point](https://www.tutorialspoint.com/dbms/dbms_data_schemas.htm)
 * `sanitize`
-  * def
-    * [src](url)
+  * the process of removing data with the purpose of making it unrecoverable
+  * generally used to protect systens from malicious data
+    * [medium](https://medium.com/@abderrahman.hamila/what-sanitize-mean-and-why-sanitize-in-code-data-5c68c9f76164)
 * `Structured Query Language (SQL)`
-  * def
-    * [src](url)
+  * the standard language for relational database management
+    * [sqlcourse](http://www.sqlcourse.com/intro.html)
 * `Non SQL (NoSQL)`
-  * def
-    * [src](url)
+  * non-relational databases which provide flexible schemas, scale easily, and can handle large amounts of data and high user loads
+    * [mongodb](https://www.mongodb.com/nosql-explained)
 * `MongoDB`
-  * def
-    * [src](url)
+  * a NoQL document-oriented database program
+    * [mongodb](https://www.mongodb.com/)
 * `Mongoose`
-  * def
-    * [src](url)
+  * an object modeling tool designed for use with MongoDB
+    * [freecodecamp](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 * `record`
-  * def
-    * [src](url)
+  * a basic data structure composed of collections of elements
+    * [wiki](https://en.wikipedia.org/wiki/Record_(computer_science))
 * `document`
-  * def
-    * [src](url)
+  * JSON data stored in a database 
+    * [mongodb](https://www.mongodb.com/document-databases)
 * `Object Relation Mapping (ORM)`
-  * def
-    * [src](url)
+  * a programming technique for bridging between objects and tables
+  * ORM libraries take care of the bridging mechanics and
+  * allow the user to interact directly with the objects in the user's preferred language
+    * [stackoverflow](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one)
 
 ***
 
