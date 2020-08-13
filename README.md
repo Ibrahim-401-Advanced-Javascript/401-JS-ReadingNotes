@@ -163,8 +163,10 @@
       * [freecodecamp](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 5. Define three related pieces of data in a possible application. An example for a store application might be Product, Category and Department. Describe the constraints and rules on each piece of data and how you would relate these pieces to each other. For example, each Product has a Category and belongs in a Department.
     * Table - a collection of related records within a database
-    * Record - a single line with a unique ID within a database table `(Object{id})`
-    * Field - a single piece of data within a record `({property: value})` 
+    * Record - a single line with a unique ID within a database table 
+      * `(Object{id})`
+    * Field - a single piece of data within a record 
+      * `({property: value})` 
 
 ##### Vocabulary
 
