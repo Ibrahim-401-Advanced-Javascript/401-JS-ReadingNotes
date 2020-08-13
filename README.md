@@ -216,12 +216,57 @@
 ##### Reading, Research, and Discussion
 
 1. Give one strong argument for and against NoSQL Databases.
-    * A
-      * [src](url)
+    * Pro: Flexible Data Models
+      * NoSQL Databases easily store and combine any type of data, whether structured or unstructured. Schemas can be updated dynamically when needed without downtime or interruption
+        * [mongodb](https://www.mongodb.com/scale/nosql-databases-pros-and-cons)
+    * Con: Sacrificing referential integrity/data consistency for speed
+      * With SQL Databases, we are bound by referential tables
+      * With NoSQL Databases, we aren't imposing any logical consistency across tables by default; instead we need to build integrity mechanisms into the code
+        * [quora](https://www.quora.com/What-are-the-pros-and-cons-of-NoSQL-databases)
 2. Name 3 cloud based NoSQL Databases
-    * A
-      * [src](url)
+    * Amazon DynamoDB 
+      * [aws](https://aws.amazon.com/dynamodb/)
+    * Oracle 
+      * [oracle](www.oracle.com)
+    * MongoDB Atlas 
+      * [mongodb](https://www.mongodb.com/cloud/atlas)
 
 ##### Vocabulary
-
-* See Class-03
+* `database`
+  * an organized collection of information, accessed electronically via query languages
+* `data model`
+  * a diagram of organized elements of data which illustrates how those elements of data relate to one another
+    * [hackernoon](https://hackernoon.com/making-a-case-for-domain-modeling-17cf47030732)
+* `CRUD`
+  * Functions of Persistent Storage: Create, Read, Update, Delete
+    * [stackify](https://stackify.com/what-are-crud-operations/)
+* `schema`
+  * a skeleton structure representative of the logical view of an entire database
+    * [tutorials point](https://www.tutorialspoint.com/dbms/dbms_data_schemas.htm)
+* `sanitize`
+  * the process of removing data with the purpose of making it unrecoverable
+  * generally used to protect systens from malicious data
+    * [medium](https://medium.com/@abderrahman.hamila/what-sanitize-mean-and-why-sanitize-in-code-data-5c68c9f76164)
+* `Structured Query Language (SQL)`
+  * the standard language for relational database management
+    * [sqlcourse](http://www.sqlcourse.com/intro.html)
+* `Non SQL (NoSQL)`
+  * non-relational databases which provide flexible schemas, scale easily, and can handle large amounts of data and high user loads
+    * [mongodb](https://www.mongodb.com/nosql-explained)
+* `MongoDB`
+  * a NoQL document-oriented database program
+    * [mongodb](https://www.mongodb.com/)
+* `Mongoose`
+  * an object modeling tool designed for use with MongoDB
+    * [freecodecamp](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
+* `record`
+  * a basic data structure composed of collections of elements
+    * [wiki](https://en.wikipedia.org/wiki/Record_(computer_science))
+* `document`
+  * JSON data stored in a database 
+    * [mongodb](https://www.mongodb.com/document-databases)
+* `Object Relation Mapping (ORM)`
+  * a programming technique for bridging between objects and tables
+  * ORM libraries take care of the bridging mechanics and
+  * allow the user to interact directly with the objects in the user's preferred language
+    * [stackoverflow](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one)
