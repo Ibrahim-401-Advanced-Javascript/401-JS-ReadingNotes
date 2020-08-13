@@ -149,12 +149,76 @@
 
 ##### Reading, Research, and Discussion
 
-1. Q.
+1. Why would a developer choose to make data models?
+    * A well-done data model can make complex applications more scalable; gaining direct access to app infrastructure can make navigating changes more simple
+      * [hackernoon](https://hackernoon.com/making-a-case-for-domain-modeling-17cf47030732)
+2. What purpose do CRUD operations serve?
+    * Allowing for persistent storage within applications/databases
+      * [stackify](https://stackify.com/what-are-crud-operations/)
+3. What kind of database is Postgres? MongoDB?
+    * Postgres is a relational database
+    * MongoDB is a non-relational database
+4. What is Mongoose and why do we need it?
+    * Mongoose is an object modeling tool designed for use with MongoDB.
+      * [freecodecamp](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
+5. Define three related pieces of data in a possible application. An example for a store application might be Product, Category and Department. Describe the constraints and rules on each piece of data and how you would relate these pieces to each other. For example, each Product has a Category and belongs in a Department.
+    * A
+    * B
+    * C
+      * [src](url)
+
+##### Vocabulary
+
+* `database`
+  * def
+    * [src](url)
+* `data model`
+  * a diagram of organized elements of data which illustrates how those elements of data relate to one another
+    * [hackernoon](https://hackernoon.com/making-a-case-for-domain-modeling-17cf47030732)
+* `CRUD`
+  * Functions of Persistent Storage: Create, Read, Update, Delete
+    * [stackify](https://stackify.com/what-are-crud-operations/)
+* `schema`
+  * def
+    * [src](url)
+* `sanitize`
+  * def
+    * [src](url)
+* `Structured Query Language (SQL)`
+  * def
+    * [src](url)
+* `Non SQL (NoSQL)`
+  * def
+    * [src](url)
+* `MongoDB`
+  * def
+    * [src](url)
+* `Mongoose`
+  * def
+    * [src](url)
+* `record`
+  * def
+    * [src](url)
+* `document`
+  * def
+    * [src](url)
+* `Object Relation Mapping (ORM)`
+  * def
+    * [src](url)
+
+***
+
+#### Class-04
+
+##### Reading, Research, and Discussion
+
+1. Give one strong argument for and against NoSQL Databases.
+    * A
+      * [src](url)
+2. Name 3 cloud based NoSQL Databases
     * A
       * [src](url)
 
 ##### Vocabulary
 
-* `term`
-  * def
-    * [src](url)
+* See Class-03
