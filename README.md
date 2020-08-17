@@ -270,3 +270,27 @@
   * ORM libraries take care of the bridging mechanics and
   * allow the user to interact directly with the objects in the user's preferred language
     * [stackoverflow](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one)
+
+***
+
+#### Class-05
+
+##### Linked Lists
+
+When To Use Linked Lists ---------------- vs ------------ When to Use Arrays
+----------------------------------------- | --------------------------------
+
+- for tasks that require insert/delete.      - for tasks that require searching
+- when data storage space is limited         - when data storage space is not a concern
+- when the list may grow                     - when the list will not grow in size
+   (size unknown at start)
+
+------------------------------------------------------------------------
+
+* Singly linked lists contain nodes that store only two properties: the value of the contents of the node, and the reference to the next node in the list.
+
+* Doubly linked lists contain nodes that store the value of the node contents, the reference to the next node, AND a reference to the previous node. 
+
+*Circularly linked lists store only two properties as well; the value of the contents, and the reference to the next node. However, they do not behave the same way singly- or doubly- linked lists behave. That is, the list looks like:
+{head} --> {tail} --> {beginning} --> {next} --v
+             ^----------------------------------
