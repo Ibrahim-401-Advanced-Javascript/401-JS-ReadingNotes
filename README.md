@@ -297,3 +297,37 @@
   * the reference to the next node
   * a reference to the previous node. 
 
+***
+
+#### Class-06
+
+##### HTTP and REST
+
+* HTTP (Hyper Text Transfer Protocol)
+  * Apps built using HTTP subscribe to the cient-server computing model
+    * server = host designed to provide the service
+    * client = hosts that make requests to the service
+  * HTTP Requests
+    * GET method -> retrieve a resource
+    * HEAD -> retrieve headers
+    * POST -> create a resource
+    * PUT -> update a resource by replacing it
+    * DELETE -> delete a resource
+    * CONNECT -> create a TCP/IP tunnel (communicate between 2 networks)
+    * OPTIONS -> returns supported methods for a URL
+    * TRACE -> echos retrieved request (used for debugging)
+    * PATCH -> modify specific parts of a resource
+      * [mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+  * HTTP Response
+    * First line contains HTTP Version (i.e. HTTP/1.1), Status Code (i.e. 200), and Status Message(i.e. 'OK')
+
+* REST (Representational State Transfer)
+  * REST Methods allow us to perform actions on data returned from RESTful API calls
+    * CREATE -> Create a new record
+      * like HTTP POST
+    * READ -> Retrieve records
+      * like HTTP GET
+    * UPDATE
+      * like HTTP PUT or PATCH
+    * DELETE -> Remove a record
+    
