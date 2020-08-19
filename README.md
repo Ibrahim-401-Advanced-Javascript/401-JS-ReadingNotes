@@ -336,3 +336,31 @@
 #### Class-07
 
 ##### Express & MiddleWare
+
+* Express Routing
+  * Route functions take two mandatory arguments: request, response
+    * Request Objects can take parameters or query strings
+    * Response Object is responsible for sending data back to the browser
+      * sends status code
+      * sends data objects
+
+* Express Middleware
+  * functions that requests are routed through
+  * receive a request object, response object, and the next middleware function in the req/res cycle
+    * if the function doesn't end the req/res cycle, it must call next() or the request will run for ever and ever and ever and ever and-
+  * order matters (a lot) when coding middleware functions
+  * application middleware handles:
+    * errors
+    * importing other routes
+    * applying defaults
+    * parsing
+  * route middleware handles:
+    * logging
+    * model loading
+    * browser/location/user specific content
+    * pre-rendering
+  * built-in middleware functions include:
+    * express.static -> serves static assets such as HTML files, images, etc.
+    * express.json -> parses incoming requests with JSON payloads
+    * express.urlencoded -> parses incoming requests with URL-encoded payloads
+    * [express](https://expressjs.com/en/guide/using-middleware.html#middleware.built-in)
