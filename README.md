@@ -407,3 +407,30 @@
   * By making reference to the model we want to link our schema to, we can join them. 
 * [mongoose](https://mongoosejs.com/docs/populate.html#populate-virtuals]
 
+***
+
+#### Class-10
+
+##### Stacks
+* Stacks are structures that consist of nodes
+* When referencing actions performed on stacks, we use the following terms:
+  * Push -> items added into the stack are pushed (like arrays)
+  * Pop -> items removed from the stack are popped (like arrays)
+  * Top -> this is the top node in the stack
+  * Peek -> peeking gives you the value of the top node in the stack
+  * isEmpty -> returns true when the stack is empty, else returns false
+* Stacks follow FILO and LIFO concepts
+  * FILO -> first in/last out -> the first item added to the stack will be the last one popped out
+  * LIFO -> last in/first out -> the last item added to the stack will be the first one popped out
+  
+##### Queues
+* Queue Vocab
+  * Enqueue -> Nodes that are added to the queue
+  * Dequeue -> Nodes that are removed from the queue
+  * Front -> The first Node of the queue
+  * Rear -> The last Node of the queue
+  * Peek -> gives you the value of the front Node in the queue
+  * IsEmpty -> returns true when the queue is empty, else false
+* Queues also follow FIFO and LILO concepts
+  * FIFO -> first in first out -> first item in the queue will be the first item out of the queue
+  * LILO -> last in last out -> last item in the queue will be the last item out of the queue
