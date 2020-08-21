@@ -386,7 +386,15 @@
 #### Class-09
  
 ##### Sub Documents in Mongoose
+* Subdocuments are documents embedded in other documents; they come in two types:
+  * arrays of subdocuments
+  * arrays of subdocuments
+* They enable us to nest schemas within other schemas 
+* Nested schemas can have middleware, validation, and any other feature normally accessible to schemas
+* However, subdocuments are not saved on their own; they are only saved whenever their parent document is saved
+* [mongoose](https://mongoosejs.com/docs/subdocs.html)
 
 ##### Joining Documents in Mongo
+* 
 
 ##### Virtual Joins
