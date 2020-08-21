@@ -395,6 +395,15 @@
 * [mongoose](https://mongoosejs.com/docs/subdocs.html)
 
 ##### Joining Documents in Mongo
-* 
+* Virtual Joins
+  * `const Schema1 = new Schema({})`
+  * `const Schema2 = new Schema({})`
+  * `------`
+  * `Schema2.virtual('items', { ref: 'Model1 }`
+  * `------`
+  * `const Model1 = mongoose.model('Model1', Schema1)`
+  * `const Model2 = mongoose.model('Model2', Schema2)`
+  * `------`
+  * By making reference to the model we want to link our schema to, we can join them. 
 * [mongoose](https://mongoosejs.com/docs/populate.html#populate-virtuals]
 
