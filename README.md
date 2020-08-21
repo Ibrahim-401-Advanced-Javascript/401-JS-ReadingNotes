@@ -385,6 +385,8 @@
 
 #### Class-09
  
-##### Router Parameters
+##### Sub Documents in Mongoose
 
-* 
+##### Joining Documents in Mongo
+
+##### Virtual Joins
