@@ -434,3 +434,9 @@
 * Queues also follow FIFO and LILO concepts
   * FIFO -> first in first out -> first item in the queue will be the first item out of the queue
   * LILO -> last in last out -> last item in the queue will be the last item out of the queue
+  
+  ***
+
+#### Class-11
+
+##### Authentication
