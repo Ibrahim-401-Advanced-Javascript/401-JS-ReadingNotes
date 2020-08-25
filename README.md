@@ -440,3 +440,36 @@
 #### Class-11
 
 ##### Authentication
+* Router Middleware
+  * Middleware functions have access to the request object, response object, and the next middleware function in the web request-response cycle
+  * Middleware functions can:
+    * execute any code
+    * make changes to the request and/or response objects
+    * end the request-response cycle
+    * call the next middleware function in the stack
+  * Express apps can use:
+    * application-level middleware - `app.httpmethod(function)` or `app.use(function)`
+    * router-level middleware - `const router = express.Router` -> `router.use(function)` or `router.httpmethod(function)`
+    * error-handling middleware - `app.use(function(err, req, res, next)`
+      * takes four arguments; in addition to req, res, next, we add err
+    * built-in middleware
+      * `express.static` serves static assets such as HTML files and images
+      * `express.json` parses requests with JSON payloads
+      * `express.urlencoded` parses incoming requests with url-encoded payloads
+    * third-party middleware
+      * dependencies that we install with node which add specific functionalities to express applications
+* Dynamic Module Loading
+  * wrapping imports in async functions
+  `async function loadPage() { await import('file/path/filename.js); code to run after completion of import goes here }`
+    *[github](https://gist.github.com/Rich-Harris/ea561810900eedd2a8e9afbc78ddd566)
+* Singleton Pattern
+  * The Singleton Pattern involves a single class responsible for creating an object while ensuring that only a single object gets created
+  * The object can be accessed directly without needing to instantiate the object class, as it has been automatically instantiated upon its creation
+    * [tutorialspoint](https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm)
+* CRUD -> REST Method Matches
+  * Create - POST
+  * Read - GET
+  * Update - PUT
+  * Delete - DELETE
+* Mock Testing
+  * Mock functions allow us to test code by 'erasing' the actual implementation of the function, instead creating mock situations to base our code connection tests on. 
