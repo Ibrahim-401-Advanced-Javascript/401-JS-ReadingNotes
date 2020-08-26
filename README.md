@@ -480,47 +480,41 @@
  
 ##### OAuth
 * Why is authentication important?
-  *
+  * Protecting a user's private or sensitive information
 * Why should we be careful about storing users' passwords?
-  * 
+  * Data breaches occur often, and if we are not careful about the information we store along with encrypted passwords, we could be giving hints to how to easily decrypt them. 
 * What is the difference between hashing and encryption?
-  * 
+  * Hashing is a one-way irreversible data conversion using alphanumeric characters to produce a new key, a complex string of letters and numbers
+  * Encryption is a secure encoding technique in which data is encoded using an algorithm which only authorized personnel have access to
+    * [geeksforgeeks](https://www.geeksforgeeks.org/encryption-encoding-hashing/)
 * What is the difference between encryption and encoding?
-  * 
+  * Encoding is the reversible process of changing data into a new format 
+  * Encryption is a secure encoding technique (see above)
+    * [geeksforgeeks](https://www.geeksforgeeks.org/encryption-encoding-hashing/)
 * What is a token used for?
-  *
+  * Persistence of user authorization
 
 ##### Vocabulary
 * `authentication`
-  * def
-    * [src](url)
+  * the verification of human-server transfer of credentials 
 * `authorization`
-  * def
-    * [src](url)
-* `encryption`
-  * def
-    * [src](url)
-* `hashing`
-  * def
-    * [src](url)
+  * the validation of which functions of an application the user has access to
+    * [medium](https://medium.com/capital-one-tech/securing-applications-with-better-user-authorization-625ec07a7001)
 * `session`
-  * def
-    * [src](url)
+  * characterized as a temporary interactive information exchange between two web clients, or between a web client and a user
+    * [wikipedia](https://en.wikipedia.org/wiki/Session_(computer_science))
 * `cookie`
-  * def
-    * [src](url)
+  * small bits of data stored by browsers which track stateful information (i.e. browsing activity, logins, clicks, shopping carts)
 * `token`
-  * def
-    * [src](url)
+  * a complex string of base64 characters which is granted to the user after authentication and authorization
+  * serves as a key for persistence of user authorization
+    * [jwt.io](https://jwt.io/introduction/)
 * `basic auth`
-  * def
-    * [src](url)
-* `encoding`
-  * def
-    * [src](url)
+  * the simplest auth technique, which encodes data with base64
+  * generally combined with HTTPS to provide confidentiality of data
+    * [swagger.io](https://swagger.io/docs/specification/authentication/basic-authentication/)
 * `secret`
-  * def
-    * [src](url)
+  * a key used in conjunction with a client id to be used for OAuth
 * `cryptography`
-  * def
-    * [src](url)
+  * the study and practice of secure communications techniques which allow only the sender and intended recipient to view sent data
+    * [kaspersky](https://usa.kaspersky.com/resource-center/definitions/what-is-cryptography)
