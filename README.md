@@ -1,6 +1,5 @@
 ## 401 JavaScript Reading Notes
 
-***
 
 #### Class-01
  
