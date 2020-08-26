@@ -473,3 +473,54 @@
   * Delete - DELETE
 * Mock Testing
   * Mock functions allow us to test code by 'erasing' the actual implementation of the function, instead creating mock situations to base our code connection tests on. 
+
+***
+
+#### Class-12
+ 
+##### OAuth
+* Why is authentication important?
+  *
+* Why should we be careful about storing users' passwords?
+  * 
+* What is the difference between hashing and encryption?
+  * 
+* What is the difference between encryption and encoding?
+  * 
+* What is a token used for?
+  *
+
+##### Vocabulary
+* `authentication`
+  * def
+    * [src](url)
+* `authorization`
+  * def
+    * [src](url)
+* `encryption`
+  * def
+    * [src](url)
+* `hashing`
+  * def
+    * [src](url)
+* `session`
+  * def
+    * [src](url)
+* `cookie`
+  * def
+    * [src](url)
+* `token`
+  * def
+    * [src](url)
+* `basic auth`
+  * def
+    * [src](url)
+* `encoding`
+  * def
+    * [src](url)
+* `secret`
+  * def
+    * [src](url)
+* `cryptography`
+  * def
+    * [src](url)
