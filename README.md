@@ -492,6 +492,7 @@
   * Encryption is a secure encoding technique (see above)
     * [geeksforgeeks](https://www.geeksforgeeks.org/encryption-encoding-hashing/)
 * What is a token used for?
+  * Secure information transmission
   * Persistence of user authorization
 
 ##### Vocabulary
@@ -507,7 +508,6 @@
   * small bits of data stored by browsers which track stateful information (i.e. browsing activity, logins, clicks, shopping carts)
 * `token`
   * a complex string of base64 characters which is granted to the user after authentication and authorization
-  * serves as a key for persistence of user authorization
     * [jwt.io](https://jwt.io/introduction/)
 * `basic auth`
   * the simplest auth technique, which encodes data with base64
