@@ -2,7 +2,7 @@
 
 ***
 
-#### Class-11
+#### Class 11
 
 ##### Authentication
 * Router Middleware
@@ -41,7 +41,7 @@
 
 ***
 
-#### Class-12
+#### Class 12
  
 ##### OAuth
 * Why is authentication important?
