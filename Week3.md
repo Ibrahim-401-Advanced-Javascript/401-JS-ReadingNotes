@@ -129,8 +129,11 @@
 
 ##### Access Control (ACL)
 * When is Basic Authorization used vs. Bearer Authorization?
-  * 
+  * answ
+    * [src](url)
 * What does the JSON Web Token package do?
-  * 
+  * answ
+    * [src](url)
 * What considerations should we make when creating and storing a SECRET?
-  * 
+  * answ
+    * [src](url)
