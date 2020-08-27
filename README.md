@@ -23,5 +23,5 @@
   * Basic Authentication
   * OAuth
   * Bearer Authorization
-  * 
+  * Access Control (ACL)
   * 
