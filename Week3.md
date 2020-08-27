@@ -122,3 +122,15 @@
    * a route used as a point of entry when two systems (client-server) are interacting
    * the means from which the API can access the resources they need from a server to perform their task
       * [rapidapi](https://rapidapi.com/blog/api-glossary/endpoint/)
+      
+***
+
+#### Class 14
+
+##### Access Control (ACL)
+* When is Basic Authorization used vs. Bearer Authorization?
+  * 
+* What does the JSON Web Token package do?
+  * 
+* What considerations should we make when creating and storing a SECRET?
+  * 
