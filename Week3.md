@@ -137,3 +137,20 @@
 * What considerations should we make when creating and storing a SECRET?
   * answ
     * [src](url)
+
+##### Vocabulary
+* `encryption`
+  * def
+    * [src](url)
+* `token`
+  * def
+    * [src](url)
+* `bearer`
+  * def
+    * [src](url)
+* `secret`
+  * def
+    * [src](url)
+* `JSON Web Token`
+  * def
+    * [src](url)
