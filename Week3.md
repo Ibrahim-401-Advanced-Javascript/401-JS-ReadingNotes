@@ -129,27 +129,18 @@
 
 ##### Access Control (ACL)
 * When is Basic Authorization used vs. Bearer Authorization?
-  * answ
-    * [src](url)
+  * Basic Authorization involves a base64-encoded username and password being proided to the browser, checked against a database of sorts, and granting access if the provided user:pass pair matches the databased user:pass combination 
+  * Bearer Authentication uses a token, which is a cryptic string, to grant access to the authorized user.
+    * [swagger.io](https://swagger.io/docs/specification/authentication/bearer-authentication/)
 * What does the JSON Web Token package do?
   * answ
     * [src](url)
 * What considerations should we make when creating and storing a SECRET?
-  * answ
-    * [src](url)
+  * The secret should be moderately complex and not easily guessable; it should also not contain any sensitive information about the user
 
 ##### Vocabulary
-* `encryption`
-  * def
-    * [src](url)
-* `token`
-  * def
-    * [src](url)
 * `bearer`
-  * def
-    * [src](url)
-* `secret`
-  * def
+  * the user connected to a bearer token (see above)
     * [src](url)
 * `JSON Web Token`
   * def
