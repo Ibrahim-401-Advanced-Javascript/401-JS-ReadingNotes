@@ -136,3 +136,11 @@
   * It connects authorization headers, a payload with user info and other data, and a secret to form an encoded string, with each of the aforementioned parts being separated by a '.' This is the token.
 * What considerations should we make when creating and storing a SECRET?
   * The secret should be moderately complex and not easily guessable; it should also not contain any sensitive information about the user
+
+***
+
+#### Class 15
+
+##### Binary Trees
+
+##### Binary Search Trees
