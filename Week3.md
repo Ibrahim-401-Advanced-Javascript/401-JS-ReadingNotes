@@ -147,7 +147,8 @@
     * The value that is stored in the node
     * A reference to the node to its left
     * A reference to the node to its right
-* Like a linked list, stack, or queue, binary trees have traversal alrogithms associated with them and a few different means of traversal.
+* Like a linked list, stack, or queue, binary trees have traversal alrogithms associated with them.
+* But unlike linked lists, stacks, and queues, binary trees have a few different means of traversal.
   * Depth First Traversal entails going through the tree from root(the highest parent node) to the leaves(last child nodes) or vice versa. Within depth first traversal, there are some different options:
     * Pre-order traversal moves from root to left to right
     * In-order moves from left to root to right
