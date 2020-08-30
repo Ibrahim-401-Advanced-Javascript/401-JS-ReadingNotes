@@ -160,3 +160,8 @@
     * All nodes smaller than the root node are placed to the left of the root
     * All nodes larger than the root node are placed to the right of the root
     * This principle is followed for each parent node in the tree; a node's left child is always smaller, while a node's right child is always larger.
+* Binary Search Trees can be traversed using a similar method to binary search
+  * Starting at the root, we can simply check whether the value of the node is smaller or larger than the value we are searching for (or seeking to add)
+  * If the value is smaller than the root, we move left and repeat the process (using a while loop is best practice)
+  * If the value is larger than the root, we move right and repeat, as above. 
+  * We repeat this process until we find the node with the value we are looking for, or find it's proper place if we are trying to add a new node
