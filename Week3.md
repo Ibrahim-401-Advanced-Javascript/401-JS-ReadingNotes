@@ -142,5 +142,21 @@
 #### Class 15
 
 ##### Binary Trees
+* Binary Trees are a data structure composed of nodes. Like a linked list, stack, or queue, binary trees have traversal alrogithms associated with them and a few different means of traversal.
+  * Depth First Traversal entails going through the tree from root(the highest parent node) to the leaves(last child nodes) or vice versa. Within depth first traversal, there are some different options:
+    * Pre-order traversal moves from root to left to right
+    * In-order moves from left to root to right
+    * Post-order moves from left to right to root
+  * Breadth First Traversal involves going through each level of the tree node-by node (level-by-level, left to right like reading a page of text).
+    * A queue is used to perform this process
+* A node within a binary tree has three properties:
+  * The value that is stored in the node
+  * A reference to the node to its left
+  * A reference to the node to its right
 
 ##### Binary Search Trees
+* Binary Search Trees are more structured than Binary Trees, whose nodes can be arranged in any order
+  * Binary Search trees must be sorted as such:
+    * All nodes smaller than the root node are placed to the left of the root
+    * All nodes larger than the root node are placed to the right of the root
+    * This principle is followed for each parent node in the tree; a node's left child is always smaller, while a node's right child is always larger.
