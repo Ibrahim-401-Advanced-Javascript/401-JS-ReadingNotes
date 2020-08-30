@@ -25,3 +25,10 @@
   * Bearer Authorization
   * Access Control (ACL)
   * Binary Trees & Binary Search Trees
+
+[Week 4](https://github.com/Ibrahim-401-Advanced-Javascript/401-JS-ReadingNotes/blob/master/Week4.md)
+  * Class 16
+  * 17
+  * 18
+  * 19
+  * 20
