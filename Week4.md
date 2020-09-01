@@ -4,7 +4,7 @@
 
 #### Class 16
 
-##### Review, Research, Discussion
+##### Access Control
 * Why is access control important?
   * We don't want to give every user who logs in the same capabilities. For example, some users would have administrative privileges, others would have the ability to edit content, and some would simply have read-only access.
 * Describe an application that would need access control.
@@ -17,3 +17,49 @@
   * Discretionary Access Control is enforced by the operating system (under control of a system administrator). It is categorized by the user's ability to control access to their own data. 
   * Role Based Access Control assigns permissions to particular roles within an organization. Users, upon signup, are assigned to that particular role. This is the most scalable because there are no deviations from this rule. One user will never have more capabilities than another user, and one editor will never have more capabilities than another editor. By creating roles first, it is ensured that no matter how many users of any type are added, their permissions are granted in the same way and there don't need to be changes to the code.
     * [techtopia](https://www.techotopia.com/index.php/Mandatory,_Discretionary,_Role_and_Rule_Based_Access_Control)
+
+***
+
+#### Class 17
+
+##### TCP Servers
+* Given the examples of front-end events such as button click, window resize, form submit, etc, what are some examples of back-end events?
+ * answer
+* Why are events sometimes better than asynchronous actions with callbacks?
+ * answer
+* What does an EventEmitter instance do?
+ * answer
+* When is a program’s call stack, event queue, and event loop active?
+ * answer
+ 
+##### Vocabulary
+* `Observer Pattern`
+  * def
+    * src
+* `Listener`
+  * def
+    * src
+* `Event Handler`
+  * def
+    * src
+* `Event Driven Programming`
+  * def
+    * src
+* `Event Loop`
+  * def
+    * src
+* `Event Queue`
+  * def
+    * src
+* `Call Stack`
+  * def
+    * src
+* `Emit/Raise/Trigger`
+  * def
+    * src
+* `Subscribe`
+  * def
+    * src
+* `database`
+  * def
+    * src
