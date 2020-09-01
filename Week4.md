@@ -24,18 +24,21 @@
 
 ##### TCP Servers
 * Given the examples of front-end events such as button click, window resize, form submit, etc, what are some examples of back-end events?
- * answer
+ * HTTP method calls and data retrievals/creations, timers
 * Why are events sometimes better than asynchronous actions with callbacks?
- * answer
+ * faster server response time (all happens synchronously)
+ * can respond to the same event signal multiple times without needing to write extended logic for this within the function
 * What does an EventEmitter instance do?
- * answer
+ * starts events upon specific conditions
+ * calls listener functions
 * When is a program’s call stack, event queue, and event loop active?
- * answer
+ * while the code is being invoked / read by the interpreter
  
 ##### Vocabulary
 * `Observer Pattern`
-  * def
-    * src
+  * a one-to-many dependency between objects
+  * when the object changes state, all dependents are updated automatically
+    * [geeksforgeeks](https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/)
 * `Listener`
   * def
     * src
@@ -44,7 +47,7 @@
     * src
 * `Event Driven Programming`
   * def
-    * src
+    * [freecodecamp](https://www.freecodecamp.org/news/understanding-node-js-event-driven-architecture-223292fcbc2d/)
 * `Event Loop`
   * def
     * src
