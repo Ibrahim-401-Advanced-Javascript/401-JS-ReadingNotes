@@ -27,7 +27,7 @@
   * Binary Trees & Binary Search Trees
 
 [Week 4](https://github.com/Ibrahim-401-Advanced-Javascript/401-JS-ReadingNotes/blob/master/Week4.md)
-  * Class 16
+  * Event Driven Applications
   * 17
   * 18
   * 19
