@@ -40,29 +40,18 @@
   * when the object changes state, all dependents are updated automatically
     * [geeksforgeeks](https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/)
 * `Listener`
-  * def
-    * src
+  * a function that will run when its target is hit
+  * it literally "listens" for an event
 * `Event Handler`
-  * def
-    * src
+  * the function which runs when the event listener detects the event has been triggered
 * `Event Driven Programming`
-  * def
+  * a programming paradigm in which the flow of execution is determined by events
     * [freecodecamp](https://www.freecodecamp.org/news/understanding-node-js-event-driven-architecture-223292fcbc2d/)
 * `Event Loop`
-  * def
-    * src
-* `Event Queue`
-  * def
-    * src
-* `Call Stack`
-  * def
-    * src
+  * monitors the call stack and the callback queue
+  * takes the first event from the queue and pushes it to the call stack, which runs it
 * `Emit/Raise/Trigger`
-  * def
-    * src
+  * Event emitter emits an event - that is it enacts the code upon being triggered by the listener
 * `Subscribe`
-  * def
-    * src
-* `database`
-  * def
-    * src
+  * the listener is 'subscribed' to event objects; when the event object is triggered, the listener reacts by enacting the event handler or emitter
+
