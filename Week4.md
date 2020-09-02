@@ -55,3 +55,38 @@
 * `Subscribe`
   * the listener is 'subscribed' to event objects; when the event object is triggered, the listener reacts by enacting the event handler or emitter
 
+***
+
+#### Class 18
+
+##### Socket.io
+* What is the benefit of transforming data into packets?
+  * --
+* UDP is often refereed to as a connectionless protocol. Why is this?
+  * --
+* Can a socket server application have multiple socket connections?
+  * --
+* Can a socket connection application be connected to multiple socket servers?
+  * --
+* Can an application be both a socket server and a socket connection?
+  * --
+
+##### Vocabulary
+* `OSI Model`
+  * def
+    * src
+* `TCP Model`
+  * def
+    * src
+* `TCP`
+  * def
+    * src
+* `UDP`
+  * def
+    * src
+* `Packets`
+  * def
+    * src
+* `Socket`
+  * def
+    * src
