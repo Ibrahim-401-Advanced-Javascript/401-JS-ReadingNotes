@@ -61,32 +61,48 @@
 
 ##### Socket.io
 * What is the benefit of transforming data into packets?
-  * --
+  * packet-based networks are the most scalable and efficient networks for content delivery
+    * [fnt software](https://blog.fntsoftware.com/network-transformation-transitioning-to-packet-technology/)
 * UDP is often refereed to as a connectionless protocol. Why is this?
-  * --
+  * no connection needs to be established between source and destination prior to the transmission of data
+    * [wikipedia](https://en.wikipedia.org/wiki/Connectionless_communication)
 * Can a socket server application have multiple socket connections?
-  * --
+  * Yes, a socket server may serve many clients
 * Can a socket connection application be connected to multiple socket servers?
-  * --
+  * Yes, a socket application can utilize numerous servers
 * Can an application be both a socket server and a socket connection?
-  * --
+  * No, each socket application has servers which have connections, but one cannot be both.
 
 ##### Vocabulary
 * `OSI Model`
-  * def
-    * src
+  * Open Systems Interconnection Model
+  * a conceptual model of the layers of systems communication
+    * application layer : human-computer interaction
+    * presentation layer : ensures data is in usable format and is encrytpted
+    * session layer : maintains connections & controls ports
+    * transport layer : transmits data
+    * network layer : decides which path data will take
+    * datalink layer : defines the format of data
+    * physical layer : transmits raw bit stream 
+      * [cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 * `TCP Model`
-  * def
-    * src
+  * Transition Control Protocol Model
+  * a concise version of the OSI model with stricter boundaries
+    * application layer : performs the functions of OSI's application, presentation, and session layers
+    * transport (host-to-host) layer : TCP occurs here (see definition below)
+    * internet layer : analogous to OSI's network layer
+    * network access layer : combination of OSI's physical and datalink layer
+      * [geeksforgeeks](https://www.geeksforgeeks.org/tcp-ip-model/)
 * `TCP`
-  * def
-    * src
+  * Transition Control Protocol
+  * a connection-oriented protocol for data transmission/exchange
+  * a connection is established and maintained until each entity has finished transmitting data
+    * [techtarget](https://searchnetworking.techtarget.com/definition/TCP)
 * `UDP`
-  * def
-    * src
+  * User Datagram Protocol
+  * a connectionless protocol for data transmission/exchange
+  * less reliable than TCP
 * `Packets`
-  * def
-    * src
+  * small amounts of data sent over a network, including a source, destination, and content
 * `Socket`
-  * def
-    * src
+  * a software structure that serves as an endpoint for transmitting and receiving data across a network
