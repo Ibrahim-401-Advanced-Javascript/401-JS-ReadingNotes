@@ -113,25 +113,27 @@
 
 ##### Message Queues
 * What does it mean that web sockets are bidirectional? Why is this useful?
+  * incoming and outcomeing data flows over the same channel (socket)
+  * one advantage is not needing to use multiple servers or worry about exporting modules
 * Does socket.io use HTTP? Why?
+  * for server setup, it does use an HTTP server 
 * What happens when a client emits an event?
+  * it is sent to the server
 * What happens when a server emits an event?
+  * it is sent to all connected sockets (or a targeted group or single socket)
 * What happens if a client “misses” an event?
+  * it is essentially lost 
 * How can we mitigate this?
+  * by capturing all emitted events and storing them in a queue, we can keep track of everything that was sent by the client
+  * if the event was received, we can delete it from the queue
+  * if not, we can emit it again to be received properly when the channel it was sent from is back up
 
 ##### Vocabulary
-* `Term`
-  * def
-    * [src](url)
 * `Web Socket`
-  * def
-    * [src](url)
+  * a bidirectional, stateful client-server communication protocol
+  * characterized by real-time response and continuous information refresh
+    * [geeksforgeeks](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/)
 * `Socket.io`
-  * def
-    * [src](url)
-* `Client`
-  * def
-    * [src](url)
-* `Server`
-  * def
-    * [src](url)
+  * a library that enables real-time event-based communication between the browser and server
+  * utilizes a node.js server
+    * [socket.io](https://socket.io/docs/)
