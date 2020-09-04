@@ -30,5 +30,5 @@
   * Event Driven Applications
   * TCP Servers
   * Socket.io
-  * 19
+  * Message Queues
   * 20
