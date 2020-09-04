@@ -131,7 +131,7 @@
 ##### Vocabulary
 * `Web Socket`
   * a bidirectional, stateful client-server communication protocol
-  * characterized by real-time response and continuous information refresh
+  * characterized by low-latency response and continuous information refresh
     * [geeksforgeeks](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/)
 * `Socket.io`
   * a library that enables real-time event-based communication between the browser and server
