@@ -106,3 +106,32 @@
   * small amounts of data sent over a network, including a source, destination, and content
 * `Socket`
   * a software structure that serves as an endpoint for transmitting and receiving data across a network
+  
+***
+
+#### Class 19
+
+##### Message Queues
+* What does it mean that web sockets are bidirectional? Why is this useful?
+* Does socket.io use HTTP? Why?
+* What happens when a client emits an event?
+* What happens when a server emits an event?
+* What happens if a client “misses” an event?
+* How can we mitigate this?
+
+##### Vocabulary
+* `Term`
+  * def
+    * [src](url)
+* `Web Socket`
+  * def
+    * [src](url)
+* `Socket.io`
+  * def
+    * [src](url)
+* `Client`
+  * def
+    * [src](url)
+* `Server`
+  * def
+    * [src](url)
