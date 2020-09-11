@@ -33,9 +33,9 @@
   * Message Queues
 
 [Week 5](https://github.com/401Mid)
-  * Project Week
+  * Midterm Project Week
 
-[Week 6]()
+[Week 6](https://github.com/Ibrahim-401-Advanced-Javascript/401-JS-ReadingNotes/blob/master/Week6.md)
   * Component Based UI
   * Props and State
   * Component Composition
