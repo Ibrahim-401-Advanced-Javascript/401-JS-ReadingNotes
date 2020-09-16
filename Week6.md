@@ -56,11 +56,11 @@
 
 ##### Component Composition
 * Can a parent component access the state of a child component?
-  * answ
+  * Yes, it needs to be stored and passed to the parent in the proper way (via props)
 * What can be passed along in a prop variable?
-  * answ
+  * Functions or Bits of data, like state
 * How can a child component “know” the state of another component?
-  * answ
+  * If the other component passes its state data to the parent and the parent passes it along to another child
  
 ##### Vocabulary
 * `component props`
