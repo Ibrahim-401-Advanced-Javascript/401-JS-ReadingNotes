@@ -56,22 +56,23 @@
 
 ##### Component Composition
 * Can a parent component access the state of a child component?
-  * Yes, it needs to be stored and passed to the parent in the proper way (via props)
+  * No, but parent and child components can pass data to one another in order to update local states.
+  * Child components can access the state of a parent component if the parent passes its state to the child.
+  * State ata only flows downward in this way.
 * What can be passed along in a prop variable?
-  * Functions or Bits of data, like state
+  * Functions or Bits of data used to update states
 * How can a child component “know” the state of another component?
-  * If the other component passes its state data to the parent and the parent passes it along to another child
+  * If the other component passes data to the parent in order for the parent to update state, and the parent passes its state along to another child
  
 ##### Vocabulary
 * `component props`
-  * def
-    * [src](url)
+  * property objects or functions which belong to components and can be passed to parent and child components
 * `component state`
-  * def
-    * [src](url)
+  * 'what's going on right now' for each component
+  * the current status of any given component in its run process
 * `application state`
-  * def
-    * [src](url)
+  * same concept as component state, but on an app-wide level
+  * the state of the highest-level parent component
     
 ***
 
