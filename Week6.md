@@ -58,7 +58,7 @@
 * Can a parent component access the state of a child component?
   * No, but parent and child components can pass data to one another in order to update local states.
   * Child components can access the state of a parent component if the parent passes its state to the child.
-  * State ata only flows downward in this way.
+  * State data only flows downward in this way.
 * What can be passed along in a prop variable?
   * Functions or Bits of data used to update states
 * How can a child component “know” the state of another component?
