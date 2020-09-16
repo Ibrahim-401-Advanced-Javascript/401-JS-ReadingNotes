@@ -29,23 +29,26 @@
 
 ##### Props and State
 * Does a deployed React application require a server?
-* Why do we prefer to test a React application at the behavior rather than the unit level?
+  * No, you instead you run `npm run build`
 * What does npm run build do?
+  * Bundles and minifies dependencies, javascript code, and css
+* Why do we prefer to test a React application at the behavior rather than the unit level?
+  * By running behavior-driven tests, we can assess that our code is doing what we want it to do, given the appropriate state. 
+  * Outcomes will be state-specific so it's important to test a given state and a changed state. 
 * Describe the actual composition / architecture of a React application
  
 ##### Vocabulary
 * `BDD`
-  * def
-    * [src](url)
+  * Behavior Driven Development
+  * Tests outcomes given particular states
+    * [codeburst.io](https://codeburst.io/react-behavior-driven-development-bdd-535afd364e5f)
 * `Acceptance Tests`
-  * def
-    * [src](url)
+  * A pass-or-fail test of the behaviors of an application
+  * Frequently automated
+    * [agile alliance](https://www.agilealliance.org/glossary/acceptance/)
 * `Mounting`
-  * def
-    * [src](url)
-* `Build`
-  * def
-    * [src](url)
+  * the process of creation and insertion into the DOM
+    * [reactjs](https://reactjs.org/docs/react-component.html)
     
 ***
 
