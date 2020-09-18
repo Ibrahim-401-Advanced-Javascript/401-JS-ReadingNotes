@@ -80,21 +80,21 @@
 
 ##### Routing
 * Do child components have direct access to props/state from the parent?
-  * answ
+  * It depends on what is meant by 'direct.' They have the ability to have direct access, but they need to be passed in via props before access is readily available. 
 * When a component “wraps” another component, how does the child component’s output get rendered?
-  * answ
+  * Using a router
 * Can a component, such as <Content />, which is a child also be used as a standalone component elsewhere in the application?
-  * answ
+  * Yes
 * What trick can a parent use to share all props with it’s children
-  * answ
+  * by passing in any props to the `<Component />` tag, they become available to any component with them linked in.
  
 ##### Vocabulary
 * `props.children`
-  * def
-    * [src](url)
+  * used to display whatever you include between the opening and closing tags when invoking a component
+    * [codeburst.io](https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891)
 * `composition`
-  * def
-    * [src](url)
+  * the process of creating generic child components which will later become more specialized with props
+    * [reactjs](https://reactjs.org/docs/composition-vs-inheritance.html)
 
 ***
 
