@@ -101,3 +101,18 @@
 #### Class 30
 
 ##### Hash Tables
+* Hashtables are used to hold unique values. They can be used as a virtual dictionary or library
+* They contain nodes (buckets) which contain a key and a value
+* They are essentially arrays which contain small objects which contain key value pairs.
+* We use them because of the efficient ability of arrays to quickly locate any value, given its index.
+  * When a value is stored, its hash key is assigned a specific index so that we can do this
+
+##### Vocabulary
+* `hash`
+  * a key created as a result of an algorithm converting a datastring into a scrambled mix of characters
+  * used for security or unique variables
+* `buckets`
+  * the storage space at each index of a hash table
+  * each index is one bucket
+* `collisions`
+  * when more than one key gets hashed and assigned to the same bucket of the hash table
