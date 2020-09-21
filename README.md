@@ -41,3 +41,10 @@
   * Component Composition
   * Routing
   * Hash Tables
+  
+[Week 7](https://github.com/Ibrahim-401-Advanced-Javascript/401-JS-ReadingNotes/blob/master/Week7.md)
+  * Hooks API
+  * Custom Hooks
+  * Context API
+  * Login & Auth
+  * Graphs
