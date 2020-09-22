@@ -6,26 +6,19 @@
 
 ##### Hooks API
 * Why do we not need more .html pages in a multi-page React app?
-  * a
+  * We can store components within components within the app and use pagination to switch between views
 * If we wanted a component to show up on every page, where would we put it and why?
-  * Outside the `<BrowserRouter/>`?
-  * Inside the `<BrowserRouter />`, outside a `<Route />`?
-  * Inside a `<Route />`?
-    * a
+  * Inside a `<Route />`
  
 ##### Vocabulary
-* `composition`
-  * def
-    * [src](url)
 * `children / child components`
-  * def
-    * [src](url)
+  * the components nested within another component
 * `hash routing`
-  * def
-    * [src](url)
+  * utilizing routes marked with `#` instead of `/` in order to build single-page applications
+  * the `#` targets a specific component or section on the page and loads it or focuses on it
 * `link routing`
-  * def
-    * [src](url)
+  * using traditional external or local routes, marked with `/`
+  * allows us to navigate between components on different pages within the application
     
 ***
 
@@ -33,24 +26,26 @@
 
 ##### Custom Hooks
 * What does a component's life cycle refer to?
-  * a
+  * the runtime associated with and the resources utilized by the component
 * Why do you sometimes need to wrap functions in `useCallback` when called from within `useEffect`?
-  * a
+  * to prevent the recreation of functions
+  * if a function is called inside of a `useEffect` function and we don't want it to be re-created after every render cycle
+    * [medium](https://medium.com/@infinitypaul/reactjs-useeffect-usecallback-simplified-91e69fb0e7a3)
 * Why are functional components preferred over class components?
-  * a
-* What is wrong with the given code?
-  * a
+  * they are lightweight (less code), easier to test, and future React versions will likely performance boost functional components
  
 ##### Vocabulary
 * `state hook`
-  * def
-    * [src](url)
+  * allows us to add state to functional components
+    * [reactjs](https://reactjs.org/docs/hooks-state.html)
 * `effect hook`
-  * def
-    * [src](url)
+  * allows us to handle side effects of functional components
+  * runs after every render cycle
+  * allows us to register functions which will execute after the current render cycle
+    * [medium](https://medium.com/@infinitypaul/reactjs-useeffect-usecallback-simplified-91e69fb0e7a3)
 * `reducer hook`
-  * def
-    * [src](url)
+  * allows us to use state when the next state depends on the previous one
+    * [reactjs](https://reactjs.org/docs/hooks-reference.html#usereducer)
     
 ***
 
