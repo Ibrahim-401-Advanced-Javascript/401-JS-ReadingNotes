@@ -79,27 +79,21 @@
 
 ##### Login & Auth
 * Why is the Context API useful?
-  * a
+  * it allows us to pass properties between components without having to call props within each component
 * Can a component outside of a provider get its context?
-  * a
+  * no
 * What are some common use cases for using the Context API?
-  * a
+  * when an application requires the same logic be used within numerous components
 * Describe 'Context Hell'
-  * a
+  * when there are many nested components within one application which need to share functions/state
  
 ##### Vocabulary
 * `global state`
-  * def
-    * [src](url)
-* `global context`
-  * def
-    * [src](url)
+  * the practice of holding an application's state properties within the highest parent and allowing access to all child components
 * `provider`
-  * def
-    * [src](url)
+  * the component that creates/manipulates and exports the data needed by other components
 * `consumer`
-  * def
-    * [src](url)
+  * the component that receives state information (or whatever data is passed by the provider)
     
 ***
 
