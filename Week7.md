@@ -53,20 +53,25 @@
 
 ##### Context API
 * Describe use cases for `useMemo()` and `useReducer()`
-  * a
-* Why do custom hooks n eed the use prefix?
-  * a
+  * useMemo is helpful when you have a list and you don't want it to be initialized on every render, rather you want to just add to it and retrieve values only when necessary
+  * useReducer is helpful when the next state relies heavily on the previous one
+   * it is similar to useState but preferable in this instance. 
+   * i.e. incrementing counts
+* Why do custom hooks need the use prefix?
+  * to identify them as hooks rather than standard functions wherever they are imported
+  * to follow React naming conventions
 * What do custom hooks usually do?
-  * a
-* Using any list of custom hooks, research and name one that you think will be useful in your applications
-  * a
+  * perform functions that you want to use across components without repeating code in each component
 * Describe how a hook that fetches API data might work
-  * a
+  * awaits a data fetch
+  * returns the data object
+  * returning the data returned by the hook in any given component will allow you to manipulate and populate it in whatever way is appropriate for that specific component
  
 ##### Vocabulary
 * `reducer`
-  * def
-    * [src](url)
+  * a function which takes two arguments: current state and action to perform on the state
+  * returns a new state
+    * [robinwieruch.de](https://www.robinwieruch.de/javascript-reducer)
 
 ***
 
