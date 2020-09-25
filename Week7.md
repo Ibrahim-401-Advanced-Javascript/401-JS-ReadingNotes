@@ -150,6 +150,3 @@
   * trees are one form of connected graphs
 * `disconnected graph`
   * some vertices may not have any edges
-
-* `weighted graph`
-  * def
