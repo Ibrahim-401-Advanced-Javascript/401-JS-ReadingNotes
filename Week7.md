@@ -101,9 +101,55 @@
 
 ##### Graphs
 * Concept
-  * description
+  * a series of vertices (nodes) connected by edges
+* Traversal
+  * similar to breadth-first tree traversal
+  * exception: graphs can have cycles
+    * to prevent an infinite loop, we set a flag to indicate whether that vertex has already been accessed
+* Breadth-First Review:
+  * enqueue declared start node into the queue
+  * loop while there are still nodes present
+  * dequeue the first node from the queue
+  * if the dequeued node has unvisited child nodes, mark them as visited and reinsert them in the queue
 
 ##### Vocabulary
-* `term`
+* `vertex`
+  * a data object, essentially a node
+  * can have zero or more adjacent vertices (neighbors)
+* `edge`
+  * the connection between two vertices
+* `neighbor`
+  * vertices connected to another via edges
+  * a.k.a. adjacent vertices
+* `degree`
+  * a vertex property
+  * the number of edges connected to that vertex
+* `adjacency matrix`
+  * a two-dimensional array
+  * if there are n vertices, the graph is represented by an n x n matrix
+  * each row and column represents each vertex of the data structure
+  * the values within the inner arrays are integers which represent the number of connections between vertex row and vertex column
+* `adjacency list`
+  * a collection of linked lists that lists all other vertices which are connected to each particular vertex
+* `undirected graph`
+  * edges are undirected or bi-derectional
+  * data does not flow in one specific direction
+* `diagraph`
+  * edges are directed
+  * each vertex is directed at another vertex with a specific requirement about which vertex should be referenced next
+  * a.k.a. directed graph
+* `cyclic graph`
+  * a directed graph that starts and ends with the same vertex
+* `acyclic graph`
+  * a directed graph without cycles
+  * trees are one form of acyclic graphs
+* `complete graph`
+  * all vertices are connected to all other vertices
+* `connected graph`
+  * all vertices have at least one edge
+  * trees are one form of connected graphs
+* `disconnected graph`
+  * some vertices may not have any edges
+
+* `weighted graph`
   * def
-    * [src](url)
