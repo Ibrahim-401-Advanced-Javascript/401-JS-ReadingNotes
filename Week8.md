@@ -6,22 +6,30 @@
 
 ##### Redux - Application State
 * What are the advantages of storing tokens in “Cookies” vs “Local Storage”
+  * persistence of storage without re-logging in, persistence until manual deletion, greater amount of storage capacity
 * Explain 3rd party cookies.
+  * cookies that are set by a website other than the website you are on
+  * i.e. facebook like buttons on sites outside of facebook, advertisement services that monitor which sites are visited by the user
 * How do pixel tags work?
+  * pixel tags are 1×1-pixel graphics used for tracking user behavior and web traffic at a site’s server level
+  * they allow companies to track events, email opens, digital ad impressions, sales conversions, website visits, and other types of web activity
+  * tracking pixels are added using a code in the site’s HTML code or email, which contains an external link to the pixel server. When someone visits a website using a tracking pixel, the HTML code is processed by their browser, which follows the link and opens the hidden graphic. This action is identified and recorded in the server’s log files
+  * when a user opens an email, visits a website, views your digital ad, or takes any other action, they are actually requesting the server to download the tracking pixel attached to the content
+    * [whatagraph](https://whatagraph.com/blog/articles/tracking-pixel)
  
 ##### Vocabulary
 * `cookies`
-  * def
-    * [src](url)
+  * small pieces of information websites store on your computer
+  * only contain bits of text, i.e. a user ID, session ID, preferences/settings
+  * function as user-specific memory that persists across web sessions until being cleared
 * `authorization`
-  * def
-    * [src](url)
+  * the process of defining what a user has access to
+  * including abilities related to data, i.e. read-only, adding, editing, deleting content
 * `access control`
-  * def
-    * [src](url)
+  * a means of verifying user identity and verifying that a user has appropriate control over data
 * `conditional rendering`
-  * def
-    * [src](url)
+  * creating components that encapsulate the data you want to show based on whether a given condition is met
+  * using conditional statements to render only those components you want to show when the application is in the appropriate state
     
 ***
 
