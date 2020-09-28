@@ -48,3 +48,9 @@
   * Context API
   * Login & Auth
   * Graphs
+
+[Week 8](https://github.com/Ibrahim-401-Advanced-Javascript/401-JS-ReadingNotes/blob/master/Week8.md)
+  * Redux - Application State
+  * Redux - Combined Reducers
+  * Redux - Asynchronous Actions
+  * Redux - Additional Topics
