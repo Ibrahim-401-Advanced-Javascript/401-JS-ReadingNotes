@@ -37,26 +37,27 @@
 
 ##### Redux - Combined Reducers
 * Why choose Redux instead of the Context API for global state?
+ * when we need to perform changes to state behind the scenes which will determine how the application renders
+ * (versus using context api to perform those changes on the component where the state will be rendered directly)
 * What is the purpose of a reducer?
+ * to determine changes to an application's state
 * What does an action contain?
+ * an action is a function which takes in a value (often a value of an object or a deconstructed object) and returns an object with the type of action to perform and the payload (generally, what was passed into the function as the argument)
 * Why do we need to copy the state in a reducer?
+ * it is important to not directly mutate/manipulate state
 
 ##### Vocabulary
 * `immutable state`
-  * def
-    * [src](url)
+  * cannot be modified after it is created
 * `time travel`
-  * def
-    * [src](url)
+  * the process of using reducer methods to capture states at any given time and move back and forth between those states 
+    * [front-end armory](https://frontarm.com/swyx/reusable-time-travel-react-hooks-immer/)
 * `action creator`
-  * def
-    * [src](url)
+  * functions that create actions
 * `reducer`
-  * def
-    * [src](url)
+  * a function which determines changes to an application's state
 * `dispatch`
-  * def
-    * [src](url)
+  * a function which assists in passing actions to components
     
 ***
 
