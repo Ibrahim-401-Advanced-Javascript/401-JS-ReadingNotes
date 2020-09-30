@@ -86,14 +86,14 @@
 
 #### Class 39
 
-##### Redux - Asynchronous Actions
+##### Redux - Thunk
 * What’s the best practice for “pre-loading” data into the store (on application start) in a Redux application?
+  * answer
 * When using a thunk/async action that dispatches the actual action, which do you export from your reducer?
+  * answer
 
 ##### Vocabulary
 * `middleware`
-  * def
-    * [src](url)
+  * functions (sometimes pulled from additional libraries) which enable features outside of a library's default available features
 * `thunk`
-  * def
-    * [src](url)
+  * redux middleware that allows us to load data asynchronously (redux loads synchronously by default)
