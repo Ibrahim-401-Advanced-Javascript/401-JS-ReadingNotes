@@ -65,16 +65,22 @@
 
 ##### Redux - Asynchronous Actions
 * How granular should your reducers be?
+  * It depends on how much of the properties in state any component cares about at a given time
+  * In other words, if you want to update only one property in state, but the application cares about the entire state object, it could be tempting to update all properties of the state object at once
+  * However, we can perform an action on specific fields and still update the entire object
+  * Reducers should be grouped together based on the shape of the state object at any given time, as well as how frequently it will change, etc.
+  * If it makes sense to separate portions of the state into their own reducers, do it. If not, don't.
 * Multiple reducers can “fire” when a commonly named action is dispatched. Is this a Pro or Con?
+  * Pro if intentional, Con if not.
 * Name a strategy for preventing the above
+  * Name actions meaningfully while keeping this feature in mind
 
 ##### Vocabulary
 * `store`
-  * def
-    * [src](url)
+  * holds the state of the application
+  * performs actions on the state and dispatches those actions to components
 * `combined reducers`
-  * def
-    * [src](url)
+  * more than one function performing actions on separate state components, gathered in one store.js file
     
 ***
 
