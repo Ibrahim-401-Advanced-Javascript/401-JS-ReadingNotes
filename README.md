@@ -54,3 +54,8 @@
   * Redux - Combined Reducers
   * Redux - Asynchronous Actions
   * Redux - Additional Topics
+
+[Week 9](https://github.com/Ibrahim-401-Advanced-Javascript/401-JS-ReadingNotes/blob/master/Week9.md)
+  * React Native
+  * Ethics
+  * Open-Source Software Contribution
