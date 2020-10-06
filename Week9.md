@@ -1,7 +1,4 @@
 ### Week 9
-  * React Native
-  * Ethics
-  * Open-Source Software Contribution
 
 ***
 
