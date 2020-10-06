@@ -6,13 +6,15 @@
 
 ##### React Native
 * Compare and Contrast Redux Toolkit with Redux “Ducks”
+  * generally, reducers are defined in their own file, while their action creators are in a separate file. then, they are each defined in a third file and imported to both locations. the ducks system suggests putting all redux-related logic in one file.
 * What is the principle advantage of Redux Toolkit
  
 ##### Vocabulary
 * `redux toolkit slices`
-  * def
+  * each reducer that is passed into `combineReducers` is referred to as a 'slice'
 * `namespace`
-  * def
+  * a set of names that are used to refer to different reducers or reducer-related functions
+  * ensures that each has a unique name so that their actions will not be duplicated unintentionally
     
 ***
 
