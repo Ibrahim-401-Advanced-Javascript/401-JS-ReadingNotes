@@ -24,9 +24,19 @@
 Review at least one article from both “Ethics in the workplace” and “Ethics in Technology” sections below and write how each of them relates to ethics in technology. Do you agree or disagree with these articles? What stuck out to you specifically from each article?
 
 I read:
- * [Amazon Workers Demand Jeff Bezos Cancel Face Recognition Contracts With Law Enforcement](https://gizmodo.com/amazon-workers-demand-jeff-bezos-cancel-face-recognitio-1827037509)
- * [Google Backtracks, Says Its AI Will Not Be Used for Weapons or Surveillance](https://gizmodo.com/in-reversal-google-says-its-ai-will-not-be-used-for-we-1826649327)
- * [Microsoft Employees Protest Work With ICE, as Tech Industry Mobilizes Over Immigration](https://www.nytimes.com/2018/06/19/technology/tech-companies-immigration-border.html)
+* [Amazon Workers Demand Jeff Bezos Cancel Face Recognition Contracts With Law Enforcement](https://gizmodo.com/amazon-workers-demand-jeff-bezos-cancel-face-recognitio-1827037509)
+* [Google Backtracks, Says Its AI Will Not Be Used for Weapons or Surveillance](https://gizmodo.com/in-reversal-google-says-its-ai-will-not-be-used-for-we-1826649327)
+* [Microsoft Employees Protest Work With ICE, as Tech Industry Mobilizes Over Immigration](https://www.nytimes.com/2018/06/19/technology/tech-companies-immigration-border.html)
+
+In 2018, Amazon, Microsoft, and Google all faced some heat from employees as well as outside spectators for providing services to agencies whose ethics are questionable at best. For example, Amazon was criticized for marketing its facial recognition software to law enforcement and other government agencies as well as having ties to Palantir, the company who provides predictive policing tools to law enforcement and ICE. Microsoft had a cloud computing contract with ICE and an AI contract with the Pentagon. Google was involved in a Pentagon program which used AI to analyze drone footage, but they responded to backlash by changing their AI principles and committing to not use AI for weapons or surveillance.
+
+Ultimately I agree with the employees who wrote letters calling on their employers to terminate these contracts. At the end of the day, the question of ethics is not "can they," but rather, "should they?" As technology becomes more ingrained to our daily lives, and as technology advances, the power technology has over us increases. In my opinion, while a company is free to do whatever its board deems it can, it is the responsibility of the companies who develop these technologies to distribute them in a way that prioritizes people over profit. 
+
+It is also deeply frustrating to have to face the dilemma, as an employee, of whether to maintain employment with a tech company due to its unethical practices. For example, I have no interest in developing technology for a company who is willing to sell that technology, and, in the process, the lives of its consumers, to the military, police, or any other government agency for that matter.
+
+Quotes that stuck out to me:
+* “Our company [Amazon] should not be in the surveillance business; we should not be in the policing business; we should not be in the business of supporting those who monitor and oppress marginalized populations.”
+* “We believe that Microsoft must take an ethical stand, and put children and families above profits... As the people who build the technologies that Microsoft profits from, we refuse to be complicit.”
   
 ***
   
