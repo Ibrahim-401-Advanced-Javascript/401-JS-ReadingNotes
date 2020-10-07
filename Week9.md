@@ -23,7 +23,10 @@
 ##### Ethics
 Review at least one article from both “Ethics in the workplace” and “Ethics in Technology” sections below and write how each of them relates to ethics in technology. Do you agree or disagree with these articles? What stuck out to you specifically from each article?
 
-
+I read:
+ * [Amazon Workers Demand Jeff Bezos Cancel Face Recognition Contracts With Law Enforcement](https://gizmodo.com/amazon-workers-demand-jeff-bezos-cancel-face-recognitio-1827037509)
+ * [Google Backtracks, Says Its AI Will Not Be Used for Weapons or Surveillance](https://gizmodo.com/in-reversal-google-says-its-ai-will-not-be-used-for-we-1826649327)
+ * [Microsoft Employees Protest Work With ICE, as Tech Industry Mobilizes Over Immigration](https://www.nytimes.com/2018/06/19/technology/tech-companies-immigration-border.html)
   
 ***
   
