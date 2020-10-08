@@ -44,3 +44,5 @@ Quotes that stuck out to me:
 ##### Open Source Software Contribution
 
 I was happy to see all the resources for open-source projects, specifically the 'first-timers-only' tag. I feel very intimidated by the idea of contributing to open-source projects, mostly because I don't have much practice developing outside of the scope of the projects we've created in class or for finals/midterms. Knowing that there is a place specifically aimed toward me and others like me is very comforting. It makes me feel less scared that I'll start something and not have the skill needed to have it merged.
+
+My group is considering issues from [this repo](https://github.com/codeezzi/utility/issues) for the Open-Source lab.
